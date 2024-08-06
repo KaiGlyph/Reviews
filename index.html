@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Reseñas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Página de Reseñas</h1>
+            <nav>
+                <ul>
+                    <li><a href="#acerca">Acerca de</a></li>
+                    <li><a href="#reseñas">Reseñas Destacadas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="acerca" class="card">
+            <h2>Acerca de</h2>
+            <p>Bienvenido a nuestra página de reseñas. Aquí encontrarás análisis detallados y recomendaciones sobre tus temas favoritos.</p>
+        </section>
+
+        <section id="reseñas" class="card">
+            <h2>Reseñas Destacadas</h2>
+            <div class="destacadas-container">
+                <div class="destacadas-item card">
+                    <h3>Reseñas de Animes</h3>
+                    <p>Explora nuestras reseñas de animes para conocer las últimas recomendaciones.</p>
+                    <div class="anime-example">
+                        <h4>Hyouka</h4>
+                        <p><strong>Descripción:</strong> Hyouka es un anime que sigue la vida de un grupo de estudiantes de secundaria que resuelven misterios en su tiempo libre. La serie es conocida por su enfoque en los detalles y su intrincada narrativa.</p>
+                        <a href="https://gallardo666.github.io/AnimesVistos/" target="_blank" class="button">Ver Reseñas</a>
+                    </div>
+                </div>
+                <div class="destacadas-item card">
+                    <h3>Reseñas de Libros</h3>
+                    <p>Explora nuestras reseñas de libros para descubrir tus próximas lecturas favoritas.</p>
+                    <div class="book-example">
+                        <h4>El Nombre del Viento</h4>
+                        <p><strong>Descripción:</strong> "El Nombre del Viento" de Patrick Rothfuss es una novela de fantasía que narra la historia de Kvothe, un joven que busca entender el misterio detrás de la muerte de sus padres y sus propias habilidades mágicas.</p>
+                        <a href="https://gallardo666.github.io/LibrosLeidos/" target="_blank" class="button">Ver Reseñas</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="card contact">
+            <h2 class="heading">¡Contáctame!</h2>
+            <form action="https://formsubmit.co/fbc5600ad82c568ce56e832f0900087e" method="POST">
+                <div class="input-box">
+                    <input type="text" placeholder="Nombre Completo" name="Nombre" required>
+                    <input type="email" placeholder="Dirección de Email" name="Correo" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Número de Teléfono" name="Numero_Telefono" required>
+                    <input type="text" placeholder="Asunto del Email" name="Asunto" required>
+                </div>
+                <textarea name="Message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                <input type="submit" value="Enviar Mensaje" class="btn">
+                <input type="hidden" name="_next" value="https://gallardo666.github.io/.PortFolio/">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Página de Reseñas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
